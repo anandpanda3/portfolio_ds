@@ -23,21 +23,21 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript, Python and Go. </b>
+                <b className="purple"> C++, Python, R, and Go </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">AI-driven solutions, NLP and Building Intelligent systems.  </b> 
+                {" "}
                 <b className="purple">
-                  AI.
+                  
                 </b>
               </i>
               <br />
               <br />
-              With hands-on experience in Node.js, modern JavaScript frameworks like React.js and Next.js, Python frameworks like Django, and backend technologies such as REST APIs, I love transforming ideas into real-world solutions. Full-stack development excites me, and I always seek opportunities to apply my skills to build innovative, scalable products.<b className="purple"></b> 
+              With hands-on experience in machine learning frameworks like BERT, OpenAI, TensorFlow, and Scikit-learn, as well as Python frameworks such as FastAPI, I enjoy applying AI and data science to solve complex real-world problems. I also have experience with backend technologies like REST APIs, cloud platforms such as AWS and Docker, and managing large datasets using MongoDB and SQL. I am passionate about building scalable, high-performance AI products that bring innovation to life.
               <i>
                 <b className="purple">
                   {" "}

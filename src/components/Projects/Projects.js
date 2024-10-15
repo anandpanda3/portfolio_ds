@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import autodeploy from "../../Assets/Projects/autodeploy.png";
-import bookmarker from "../../Assets/Projects/bookmarker.png";
-import moneyapp from "../../Assets/Projects/moneyapp.png";
-import imaginify from "../../Assets/Projects/imaginify.png";
-import sumz from "../../Assets/Projects/sumz.png";
-import evently from "../../Assets/Projects/evently.png";
+import chatbot from "../../Assets/Projects/chatbot.png";
+import text from "../../Assets/Projects/text.png";
+import chess from "../../Assets/Projects/chess.png";
+import stackly from "../../Assets/Projects/stackly.png";
+import bert from "../../Assets/Projects/bert.png";
+import paaro from "../../Assets/Projects/paaro.png";
 
 function Projects() {
   return (
@@ -23,67 +23,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={imaginify}
+              imgPath={stackly}
               isBlog={false}
-              title="Imaginify"
-              description="Built an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal."
-              ghLink="https://github.com/anandpanda3/imaginify_saas_app"
-              demoLink="https://imaginify-self.vercel.app/"
+              title="Stackly - Learn Smart, Stack Fast"
+              description="Stackly is a search engine created for learning any computer science tech stack or domains. It is built using Streamlit, a popular Python library for creating web apps, and course data from OSSU - Open Source Society University. Stackly helps users to learn new technologies quickly and efficiently by providing a way to search for relevant online courses and resources."
+              ghLink="https://github.com/anandpanda3/Stackly_"
+              demoLink="https://stackly.streamlit.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={evently}
+              imgPath={paaro}
               isBlog={false}
-              title="Evently"
-              description="Built on Next.js 14, the events application stands as a comprehensive, full-stack platform for managing events. It serves as a hub, spotlighting diverse events taking place globally. Featuring seamless payment processing through Stripe, you have the capability to purchase tickets for any event or even initiate and manage your own events."
-              ghLink="https://github.com/anandpanda3/Evently"
-              demoLink="https://evently-yy.vercel.app/"
+              title="P.A.A.R.O"
+              description="PAARO is a Python-based virtual assistant that responds to voice commands and can perform various tasks such as web scraping, downloading Instagram profile data, detecting mood, and playing music from YouTube. The assistant can also retrieve metadata from images and tell you the current time."
+              ghLink="https://github.com/anandpanda3/P.A.A.R.O"
+            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={moneyapp}
+              imgPath={chess}
               isBlog={false}
-              title="Moneyapp"
-              description="ersonal Finance Tracker A full-stack web application for managing personal finances. Built with Django REST Framework backend and React frontend, MoneyApp allows users to track income and expenses, categorize transactions, and visualize financial data."
-              ghLink="https://github.com/anandpanda3/Moneyapp"
+              title="Chess Engine"
+              description="Developed a Python-based chess engine that uses the Minimax algorithm for decision-making, allowing it to evaluate possible moves and choose the best strategy.Integrated Alpha-Beta Pruning to optimize the engine's performance by reducing the number of nodes evaluated, increasing efficiency in move selection."
+              ghLink="https://github.com/anandpanda3/chess-engine"
                            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={autodeploy}
+              imgPath={chatbot}
               isBlog={false}
-              title="AutoDeploy: Automating Spring Boot and React Build & Publish"
-              description="Automate building and publishing a Spring Boot backend and React frontend package to GitHub’s npm registry using GitHub Actions. Tech Stack : Python, GitHub Actions, Spring Boot, React, Node.js"
-              ghLink="https://github.com/anandpanda3/Fullstack-Openai-Generator"
+              title="AI Customer Chatbot"
+              description="This project involves building an AI-powered customer support chatbot using Next.js and the OpenAI API. The goal is to create a responsive chat interface that can handle user queries and provide accurate responses using a Large Language Model (LLM)."
+              ghLink="https://github.com/anandpanda3/AI-Customer-Support"
               
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sumz}
+              imgPath={bert}
               isBlog={false}
-              title="Sumz"
-              description="The Sumz Article Summarizer is a web application built to quickly extract concise summaries from lengthy articles. The application integrates with OpenAI's GPT API to ensure highly accurate and relevant summarization. The project is developed using React.js for the frontend, with features focused on simplicity and functionality, demonstrating skills in RESTful API consumption and state management."
-              ghLink="https://github.com/anandpanda3/sumz_article_summarizer"
-              demoLink="https://sumz-article-summarizer-gold.vercel.app/"
+              title="BERT for Sentiment Analysis API Deployment"
+              description="Deployed a pre-trained BERT model using FastAPI to analyze text sentiment (negative, neutral, positive). The API processes text inputs, classifies sentiment, and returns confidence scores. Fine-tuned the model with a custom dataset from Google Play reviews to improve classification accuracy for real-world applications, ensuring robust performance."
+              ghLink="https://github.com/anandpanda3/Deploy-BERT-Sentiment-Analysis-"
+            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bookmarker}
+              imgPath={text}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="he YT-Bookmarker is a browser extension designed to help users bookmark and manage specific moments in YouTube videos. It allows users to save timestamps and add notes for easy reference, making it perfect for students, professionals, or content creators who want to revisit specific parts of videos. "
-              ghLink="https://github.com/anandpanda3/YT-Bookmarker"
-              demoLink="https://chromewebstore.google.com/detail/youtube-bookmarker/peohjdmkchbdleoobfpfjifdeocagafc"
+              title="End-to-End Text Summarization System"
+              description="Developed and deployed a custom text summarization system using Python, FastAPI, and Docker. Automated deployment on AWS (EC2, ECR) with Terraform, and integrated CI/CD pipelines via GitHub Actions. The system efficiently summarizes large text data and ensures scalable, seamless performance through containerization and cloud services."
+              ghLink="https://github.com/anandpanda/text-summarizer"
+              
             />
           </Col>
         </Row>

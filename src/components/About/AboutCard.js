@@ -12,11 +12,11 @@ function AboutCard() {
             from <span className="purple"> New Delhi, India.</span>
             <br />
             <br />
-            Currently seeking internships and full-time opportunities in Software Development, I'm a passionate programmer and tech enthusiast who thrives on exploring new technologies and creating innovative software solutions.
+            Currently seeking internships and full-time opportunities in Machine Learning, I'm a passionate programmer and tech enthusiast who thrives on exploring new technologies.
             <br />
             <br />
             <br />
-            I'm in my final year pursuing a B.Tech in Computer Science and Engineering at KIIT, Bhubaneswar. As a Full Stack Web Developer with a strong foundation in Data Structures and Algorithms, I've honed my skills in building web applications using modern technologies such as React.js, Node.js, Express.js, and MongoDB. My experience also extends to Python and Django for web development.
+            I'm in my final year pursuing a B.Tech in Computer Science and Engineering at KIIT, Bhubaneswar. As a ML Enthusiast with a strong foundation in Data Structures and Algorithms, I've honed my skills in Machine Learning Frameworks (BERT, OpenAI, TensorFlow), NLP (FastAPI, Hugging Face Transformers), Database Management (MongoDB, SQL), and Cloud technologies (AWS, Docker, Kubernetes), along with extensive experience in developing and deploying scalable AI solutions
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
